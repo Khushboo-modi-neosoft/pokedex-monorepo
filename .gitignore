@@ -1,0 +1,11 @@
+node_modules
+lerna-debug.log
+npm-debug.log
+.idea
+packages/*/node_modules
+packages/*/dist
+packages/*/.next
+packages/*/package-lock.json
+packages/*/coverage/*
+yarn.lock
+package-lock.json

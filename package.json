@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.0.2"
+  },
+  "scripts": {
+    "components-rollup": "lerna run --scope @pokedex-monorepo/components --stream rollup-compile",
+    "utils-rollup": "lerna run --scope @pokedex-monorepo/utils --stream rollup-compile",
+    "packages-rollup": "yarn components-rollup && yarn utils-rollup",
+    "storybook": "lerna run --scope @pokedex-monorepo/components storybook",
+    "dev": "lerna run --scope pokedex dev ",
+    "setup": "yarn && yarn packages-rollup",
+    "build": "lerna run --scope pokedex --stream build",
+    "production": "lerna run --scope pokedex start",
+    "build-production": "yarn build && yarn production",
+    "lint": "lerna run lint --stream",
+    "docker-build": "sudo docker build . -t pokedex_docker",
+    "docker-run": "sudo docker run -d -p 4000:3000 pokedex_docker",
+    "docker": "yarn docker-build && yarn docker-run",
+    "test": "lerna run test --stream --parallel"
+  }
+}

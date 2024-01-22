@@ -1,0 +1,53 @@
+{
+    "name": "@pokedex-monorepo/components",
+    "version": "0.1.0",
+    "dependencies": {
+        "@mui/icons-material": "^5.11.16",
+        "@mui/material": "^5.13.2",
+        "@mui/x-data-grid": "^6.5.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.71",
+        "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.22.4",
+        "@babel/preset-react": "^7.22.3",
+        "@babel/preset-typescript": "^7.21.5",
+        "@rollup/plugin-commonjs": "21.0.1",
+        "@rollup/plugin-json": "6.0.0",
+        "@rollup/plugin-node-resolve": "^13.0.6",
+        "@rollup/plugin-typescript": "^8.3.3",
+        "@storybook/addon-essentials": "^7.0.18",
+        "@storybook/addon-interactions": "^7.0.18",
+        "@storybook/addon-links": "^7.0.18",
+        "@storybook/blocks": "^7.0.18",
+        "@storybook/react": "^7.0.18",
+        "@storybook/react-webpack5": "^7.0.18",
+        "@storybook/testing-library": "^0.0.14-next.2",
+        "@testing-library/jest-dom": "^5.16.5",
+        "eslint-config-react-app": "^7.0.1",
+        "eslint-plugin-storybook": "^0.6.12",
+        "jest-environment-jsdom": "^29.5.0",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "rollup": "^2.60.0",
+        "rollup-plugin-dts": "^4.0.1",
+        "rollup-plugin-postcss": "^4.0.2",
+        "storybook": "^7.0.18",
+        "ts-jest": "^29.1.0"
+    },
+    "peerDependencies": {
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@types/react": "^18.2.48",
+        "@types/react-dom": "^18.2.18",
+        "eslint": "8.41.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "typescript": "^4.9.5"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "declaration": true,
+    "declarationDir": "types",
+    "rootDir": "src",
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true
+  }
+}

@@ -8,7 +8,5 @@ export default {
 };
 
 export const Default = {
-  render: () => (
-    <Card pokemonData={mockPokemonData} />
-  )
+  render: () => <Card pokemonData={mockPokemonData} />,
 };

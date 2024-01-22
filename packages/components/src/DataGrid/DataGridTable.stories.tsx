@@ -3,14 +3,12 @@ import DataGridTable from "./DataGridTable";
 import { gridMockProps } from "../mockData";
 
 export default {
-	component: <DataGridTable {...gridMockProps} />,
-	title: "DataGrid",
+  component: <DataGridTable {...gridMockProps} />,
+  title: "DataGrid",
 };
 
 export const Default = {
-	render: () => {
-		return (
-			<DataGridTable {...gridMockProps} />
-		)
-	}
-}
+  render: () => {
+    return <DataGridTable {...gridMockProps} />;
+  },
+};

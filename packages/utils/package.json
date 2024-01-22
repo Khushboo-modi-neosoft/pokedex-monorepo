@@ -14,13 +14,12 @@
     "axios": "^1.3.2",
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
-    "rollup-plugin-postcss": "^4.0.2",
-    "@pokedex/components":"*"
+    "rollup-plugin-postcss": "^4.0.2"
   },
   "peerDependencies": {
     "typescript": "^4.4.4",
     "@testing-library/jest-dom": "^5.16.5",
-		"@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^14.0.0",
     "eslint": "8.41.0"
   },
   "main": "dist/cjs/index.js",

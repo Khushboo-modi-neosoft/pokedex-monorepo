@@ -31,7 +31,7 @@ export default [
       typescript({ tsconfig: "./tsconfig.json" }),
       json(),
     ],
-    external
+    external,
   },
   {
     input: "dist/esm/index.d.ts",

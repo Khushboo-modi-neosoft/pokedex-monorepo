@@ -3,20 +3,24 @@
 Pokedex is a monorepo application handled with the help of Lerna. It includes packages bundled using rollup, resulting in a dist file, containing the bundle in `cjs` and `esm` format and a project codebases.
 
 ## Packages
-  This monorepo is structured with the following 2 packages:
-  
-  ### - components 
-  It contains reusable React components ie DataGrid and PokemonCard, which can be reused in different projects.
 
-  ### - utils 
-  It contains common utility functions and helpers that are used by the `pokedex` project and can be reused in different projects.
-    
+This monorepo is structured with the following 2 packages:
+
+### - components
+
+It contains reusable React components ie DataGrid and PokemonCard, which can be reused in different projects.
+
+### - utils
+
+It contains common utility functions and helpers that are used by the `pokedex` project and can be reused in different projects.
+
 ## Project
-  It contains one project codebases
-  
- ### - pokedex 
- This is the main application which is built using `Next.js` along with `typescript`. It uses the `components` and `utils` from the respective packages.
 
+It contains one project codebases
+
+### - pokedex
+
+This is the main application which is built using `Next.js` along with `typescript`. It uses the `components` and `utils` from the respective packages.
 
 ## Getting Started
 
@@ -86,8 +90,9 @@ docker stop < CONTAINER_NAME >
 The Pokedex application will now be accessible at `http://localhost:3000` using any one of the above methods.
 
 ### Test
+
 To run test the applcation we have used `jest` along with `@testing-library/react` and `@testing-library/jest-dom`
-  
+
 ```bash
 # runs the test cases present in the appliction
  yarn test
@@ -99,4 +104,5 @@ To run test the applcation we have used `jest` along with `@testing-library/reac
 # Runs the storybook inside components file
 yarn storybook
 ```
+
 the Storybook server should be up and running at `http://localhost:3001`.

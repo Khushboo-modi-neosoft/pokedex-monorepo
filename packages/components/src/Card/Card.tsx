@@ -1,5 +1,5 @@
 import React from "react";
-import * as styles from "./Card.styles.";
+import * as styles from "./Card.styles";
 import { Box, CardMedia, Typography } from "@mui/material";
 import { ICardProps } from "./Card.type";
 
